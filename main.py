@@ -12,7 +12,6 @@ def cesar(direction, text, shift_number):
           end_text+=char
   print(f"The {direction}d message is: {end_text}")
 
-
 again = True
 while again:
     choice = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
